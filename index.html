@@ -4,14 +4,20 @@
   <meta charset="UTF-8">
   <title>Safe Landing | A Community of Aviation Workers & Enthusiasts</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.4.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  -->
+  <link href="output.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
 </head>
 <body class="font-sans text-gray-900">
 <nav class="bg-white shadow-md fixed w-full z-10">
   <div class="container mx-auto px-4 flex items-center justify-between h-16">
     <a href="index.html" class="flex items-center space-x-2">
-      <img src="images/logo.svg" alt="Safe Landing logo" class="h-8 w-auto">
+      <img src="images/logo.png" alt="Safe Landing logo" class="h-8 w-auto">
       <span class="font-bold text-lg">Safe Landing</span>
     </a>
     <div class="hidden md:flex space-x-6">
@@ -36,9 +42,10 @@
 </nav>
 
 <section class="h-screen bg-cover bg-center flex items-center justify-center" style="background-image: url('images/hero.jpg');">
-  <div class="bg-black bg-opacity-50 p-6 rounded-lg text-center">
-    <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">Landing Safely for People &amp; Planet</h1>
-    <p class="text-white mb-6 max-w-2xl">Join pilots, engineers, cabin crew &amp; aviation lovers shaping a thriving, climate‑safe future for our industry.</p>
+  <div class="bg-black bg-opacity-5 p-6 rounded-lg text-center">
+    <h1 class="text-4xl md:text-6xl font-bold text-white mb-4">SAFE LANDING</h1>
+    <p class="text-white mb-6 max-w-2xl">Community of Aviation Workers and Enthusiasts</p>
+    <p class="text-white mb-6 max-w-2xl">We connect and empower people, so that together, we create a better future for all.</p>
     <a href="#join-us" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 px-8 rounded-lg">Join Us</a>
   </div>
 </section>
@@ -46,12 +53,13 @@
 <section class="py-16 bg-gray-50">
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold mb-8 text-center">Our Community</h2>
-    <p class="max-w-3xl mx-auto mb-10 text-center">Safe Landing connects people across aviation who believe we can fly smarter, fairer and cleaner. Through collaboration, knowledge‑sharing and advocacy, we push for policies and practices that protect jobs and the climate.</p>
-    <div class="grid gap-6 grid-cols-2 md:grid-cols-4">
-      <img src="images/community1.jpg" class="rounded-lg shadow-md" alt="">
-      <img src="images/community2.jpg" class="rounded-lg shadow-md" alt="">
-      <img src="images/community3.jpg" class="rounded-lg shadow-md" alt="">
-      <img src="images/community4.jpg" class="rounded-lg shadow-md" alt="">
+    <p class="max-w-3xl mx-auto mb-10 text-center">Safe Landing is a community of aviation workers and enthusiasts who care about the future of our industry and our planet. Our community is the umbrella under which new members are welcomed and existing bonds strengthened. Together we find belonging, support and the courage to act.</p>
+    <div class="grid gap-6 grid-cols-2 md:grid-cols-3">
+      <img src="./images/community1.jpg" style="height: 30vh; width: 100%; object-fit: cover; object-position: 50% 100%" class="rounded-lg shadow-md" alt="">
+      <img src="./images/community2.jpg" style="height: 30vh; width: 100%; object-fit: cover;" class="rounded-lg shadow-md" alt="">
+      <img src="/images/community3.jpg" style="height: 30vh; width: 100%; object-fit: cover;" class="rounded-lg shadow-md" alt="">
+      <img src="/images/community4.jpg" style="height: 30vh; width: 100%; object-fit: cover;" class="rounded-lg shadow-md" alt="">
+      <img src="/images/community5.jpg" style="height: 30vh; width: 100%; object-fit: cover; object-position: 73% 50%;" class="rounded-lg shadow-md" alt="">
     </div>
   </div>
 </section>
@@ -60,9 +68,9 @@
   <div class="container mx-auto px-4">
     <h2 class="text-3xl font-bold mb-8 text-center">Our Vision</h2>
     <p class="max-w-3xl mx-auto mb-10 text-center">We envision an aviation sector aligned with 1.5 °C, powered by clean energy, and providing decent, secure jobs. Watch what that future could look like:</p>
-    <div class="relative w-full" style="padding-top: 56.25%;">
-      <video controls class="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg">
-        <source src="media/our-vision.mp4" type="video/mp4">
+    <div class="relative w-full" style="padding-top: 45%; max-width: 600px; margin: auto;">
+      <video class="absolute top-0 left-0 w-full rounded-lg shadow-lg" controls>
+        <source src="./media/ToddWSWelcome.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
