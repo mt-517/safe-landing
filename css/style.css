@@ -14,7 +14,7 @@ p {
   margin-left: 1.8rem; 
   text-indent: -1.8rem;
 }
-a{
+article a{
   color:#42ae3d;
   text-decoration: underline;
   text-underline-offset: 2.5px;
