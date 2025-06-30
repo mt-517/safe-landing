@@ -1,0 +1,23 @@
+{
+  "name": "safe-landing",
+  "version": "1.0.0",
+  "main": "build-articles.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mt-517/safe-landing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mt-517/safe-landing/issues"
+  },
+  "homepage": "https://github.com/mt-517/safe-landing#readme",
+  "description": "",
+  "dependencies": {
+    "cheerio": "^1.1.0"
+  }
+}

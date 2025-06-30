@@ -5,3 +5,38 @@
   box-shadow: 0 6px 16px rgba(0,0,0,0.1);
   transition: all .2s ease;
 }
+p {
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}
+.em-list {
+  margin-left: 1.8rem; 
+  text-indent: -1.8rem;
+}
+a{
+  color:#42ae3d;
+  text-decoration: underline;
+  text-underline-offset: 2.5px;
+}
+article{
+  border-radius: 12px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+  padding: 24px;
+}
+.cat-tag{
+  background-color: #42ae3d;
+  border-radius: 15px;
+  padding: 3px;
+  border: solid 2px #42ae3d;
+  color: white;
+}
+ul{
+  list-style-type: circle;
+  margin-left: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 0.8rem;
+  margin-top: 0.8rem;
+}

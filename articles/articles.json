@@ -1,10 +1,18 @@
 [
   {
-    "file": "2025-06-28-hydrogen-flight.html",
-    "title": "First Hydrogen Test Flight Completed",
-    "summary": "Safe Landing members celebrate a milestone as the first retro\u2011fitted hydrogen aircraft completes a successful test flight.",
-    "category": "Technology",
-    "date": "2025-06-28",
-    "image": "test-flight.jpg"
+    "file": "2025-06-27-e-fuels-concito.html",
+    "title": "Aviation E-fuels: a good idea? – CONCITO Interview",
+    "summary": "Karsten Capion of CONCITO, a green think tank based in Denmark, chatted to Finlay Asher of Safe Landing about their analysis related to aviation e-fuels.",
+    "category": "Interviews",
+    "date": "2025-06-27",
+    "image": "aviation-e-fuels.png"
+  },
+  {
+    "file": "2025-06-24-understanding-contrails.html",
+    "title": "Contrails: Understanding Their Impact and What We Can Do — A Conversation Between a Pilot and ATC",
+    "summary": "Join us for a free virtual session led by Katie Thompson, a former airline pilot, as we break down the facts behind aviation’s net zero targets.",
+    "category": "Events",
+    "date": "2025-06-24",
+    "image": "sian-talk-1.png"
   }
 ]
