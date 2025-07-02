@@ -29,7 +29,7 @@ article{
 .cat-tag{
   background-color: #42ae3d;
   border-radius: 15px;
-  padding: 3px;
+  padding: 3px 11px;
   border: solid 2px #42ae3d;
   color: white;
 }
@@ -39,4 +39,37 @@ ul{
   line-height: 1.6;
   margin-bottom: 0.8rem;
   margin-top: 0.8rem;
+}
+article form{
+  /*border: 2px solid hsl(105, 62%, 46%);*/
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 1px 2px 10px lightgrey;
+  margin: 15px;
+}
+article form input{
+  margin-bottom: 10px;
+  border: 1px solid lightgrey;
+  padding: 3px;
+  margin: 3px
+}
+article img{
+  border-radius: 10px;
+  margin-top: 10px
+}
+article h2{
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 1.8rem;
+}
+article h3{
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 1.2rem;
+}
+article blockquote{
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 4px solid grey;
+  font-style: italic;
 }
