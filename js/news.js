@@ -25,7 +25,7 @@ fetch('articles/articles.json')
         ? 'block mb-10 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1'
         : 'grid grid-cols-3 gap-4 mb-8 rounded-lg p-4 border hover:shadow-md transition-transform transform hover:-translate-y-1';
 
-      const imgEl = `<img src="articles/${article.image || 'placeholder.jpg'}" alt="${article.title}" class="${index===0 ? 'w-full md:w-1/2 object-cover' : 'col-span-1 object-cover'}">`;
+      const imgEl = `<img src="${article.image || 'placeholder.jpg'}" alt="${article.title}" class="${index===0 ? 'w-full md:w-1/2 object-cover' : 'col-span-1 object-cover'}">`;
       const textEl = `
         <div class="${index===0 ? 'p-6' : 'col-span-2'}">
           <span class="text-xs uppercase tracking-wider text-gray-500">${article.category}</span>
