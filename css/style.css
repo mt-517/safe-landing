@@ -95,7 +95,8 @@ article iframe {
   }
   .top-story {
     grid-column: 1 / span 2;
-  }  .divider {
+  }
+  .divider {
     grid-column: 1 / span 2;
   }
 }
@@ -105,17 +106,22 @@ article iframe {
   }
   .top-story {
     grid-column: 1 / span 3;
-  }  .divider {
+  }
+  .divider {
     grid-column: 1 / span 3;
   }
 }
 
-.hero{
+.hero {
   height: min(60vh, 150vw);
   padding: 104px 15px 51px 15px;
+  background-position: 26% 60%;
 }
-.hero a{
+.hero a {
   padding: 10px 21px;
   /*margin: 50px;*/
   white-space: nowrap;
+}
+.colspan-2 {
+  grid-column: 1 / span 3;
 }
