@@ -110,3 +110,12 @@ article iframe {
   }
 }
 
+.hero{
+  height: min(60vh, 150vw);
+  padding: 104px 15px 51px 15px;
+}
+.hero a{
+  padding: 10px 21px;
+  /*margin: 50px;*/
+  white-space: nowrap;
+}
