@@ -1,9 +1,8 @@
-
 /* Custom utilities */
 .card-hover:hover {
   transform: translateY(-4px);
-  box-shadow: 0 6px 16px rgba(0,0,0,0.1);
-  transition: all .2s ease;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
 }
 p {
   line-height: 1.6;
@@ -11,65 +10,103 @@ p {
   margin-top: 0.8rem;
 }
 .em-list {
-  margin-left: 1.8rem; 
+  margin-left: 1.8rem;
   text-indent: -1.8rem;
 }
-article a{
-  color:#42ae3d;
+article a {
+  color: #42ae3d;
   text-decoration: underline;
   text-underline-offset: 2.5px;
 }
-article{
+article {
   border-radius: 12px;
   margin-top: 5px;
   margin-bottom: 5px;
   background-color: white;
   padding: 24px;
 }
-.cat-tag{
+.cat-tag {
   background-color: #42ae3d;
   border-radius: 15px;
   padding: 3px 11px;
   border: solid 2px #42ae3d;
   color: white;
 }
-ul{
+ul {
   list-style-type: circle;
   margin-left: 1.2rem;
   line-height: 1.6;
   margin-bottom: 0.8rem;
   margin-top: 0.8rem;
 }
-article form{
+article form {
   /*border: 2px solid hsl(105, 62%, 46%);*/
   border-radius: 10px;
   padding: 15px;
   box-shadow: 1px 2px 10px lightgrey;
   margin: 15px;
 }
-article form input{
+article form input {
   margin-bottom: 10px;
   border: 1px solid lightgrey;
   padding: 3px;
-  margin: 3px
+  margin: 3px;
 }
-article img{
+article img {
   border-radius: 10px;
-  margin-top: 10px
+  margin-top: 10px;
 }
-article h2{
+article h2 {
   font-size: 1.8rem;
   font-weight: bold;
   margin-top: 1.8rem;
 }
-article h3{
+article h3 {
   font-size: 1.2rem;
   font-weight: bold;
   margin-top: 1.2rem;
 }
-article blockquote{
+article blockquote {
   margin-left: 1rem;
   padding-left: 1rem;
   border-left: 4px solid grey;
   font-style: italic;
 }
+.widget__captionText {
+  font-weight: 700;
+}
+.widget__captionCredit {
+  font-style: italic;
+}
+article iframe {
+  width: 100%;
+  height: 35vh;
+}
+
+#news-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 700px) {
+  #news-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .top-story {
+    grid-column: 1 / span 2;
+  }  .divider {
+    grid-column: 1 / span 2;
+  }
+}
+@media (min-width: 1000px) {
+  #news-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .top-story {
+    grid-column: 1 / span 3;
+  }  .divider {
+    grid-column: 1 / span 3;
+  }
+}
+

@@ -14,7 +14,7 @@ fetch('articles/articles.json')
       if (year !== lastYear) {
         const divider = document.createElement('h2');
         divider.textContent = year;
-        divider.className = 'text-3xl font-bold mt-12 mb-6';
+        divider.className = 'divider text-3xl font-bold mt-12 mb-6';
         container.appendChild(divider);
         lastYear = year;
       }
@@ -22,12 +22,12 @@ fetch('articles/articles.json')
       const link = document.createElement('a');
       link.href = `articles/${article.file}`;
       link.className = index === 0
-        ? 'block mb-10 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1'
-        : 'grid grid-cols-3 gap-4 mb-8 rounded-lg p-4 border hover:shadow-md transition-transform transform hover:-translate-y-1';
+        ? 'top-story block mb-10 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1'
+        : 'block mb-10 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-transform transform hover:-translate-y-1';
 
       const imgEl = `<img src="${article.image || 'placeholder.jpg'}" alt="${article.title}" class="${index===0 ? 'w-full md:w-1/2 object-cover' : 'col-span-1 object-cover'}">`;
       const textEl = `
-        <div class="${index===0 ? 'p-6' : 'col-span-2'}">
+        <div class="${'p-6 col-span-2'}">
           <span class="text-xs uppercase tracking-wider text-gray-500">${article.category}</span>
           <h3 class="text-2xl font-bold mb-2">${article.title}</h3>
           <p class="text-gray-600 mb-4">${article.summary}</p>
