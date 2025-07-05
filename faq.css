@@ -85,13 +85,15 @@ body {
   box-shadow: 0 10px 40px rgba(40, 60, 120, 0.14);
   width: 98vw;
   max-width: 400px;
-  max-height: 90vh;
+  max-height: 96vh;
   padding: 28px 22px 24px 22px;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   animation: modalIn 0.17s;
+  overflow: hidden;
+
 }
 @keyframes modalIn {
   from {
@@ -143,9 +145,6 @@ body {
   color: #5b6e8b;
 }
 @media (max-width: 550px) {
-  .faq-section {
-    padding: 10px;
-  }
   .faq-modal {
     padding: 15px 4vw;
   }
@@ -153,24 +152,17 @@ body {
 h2, h1 {
   margin:  1.9rem 1rem 1rem 1rem
 }
-.faq-modal {
-  /* ...existing styles... */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-height: 90vh;
-  overflow: hidden; /* Hide scroll on the modal box itself */
-}
+
 
 .faq-modal .modal-content-scrollable {
   overflow-y: auto;
-  max-height: 55vh; /* adjust as needed so the header and close button stay visible */
+  max-height: 59vh; /* adjust as needed so the header and close button stay visible */
   width: 100%;
   margin-top: 6px;
   padding-right: 4px; /* so scrollbar doesn't overlap text */
 }
 @media (max-width: 550px) {
   .faq-modal .modal-content-scrollable {
-    max-height: 47vh;
+    max-height: 59vh;
   }
 }
