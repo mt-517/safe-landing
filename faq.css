@@ -85,7 +85,7 @@ body {
   box-shadow: 0 10px 40px rgba(40, 60, 120, 0.14);
   width: 98vw;
   max-width: 400px;
-  max-height: 96vh;
+  max-height: 90vh;
   padding: 28px 22px 24px 22px;
   position: relative;
   display: flex;
