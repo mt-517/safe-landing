@@ -123,5 +123,17 @@ article iframe {
   white-space: nowrap;
 }
 .colspan-2 {
-  grid-column: 1 / span 3;
+  grid-column: 1 / span 2;
+}
+.swap-in{
+  display: none;
+}
+
+@media (width <= 48rem) {
+  .swap-out {
+    display: none;
+  }
+  .swap-in {
+    display: block;
+  }
 }
