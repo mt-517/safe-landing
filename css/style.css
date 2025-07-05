@@ -89,13 +89,21 @@ article iframe {
   gap: 1rem;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 500px) {
   #news-container {
     grid-template-columns: 1fr 1fr;
+    font-size: smaller;
+  }
+  .story p, h3{
+    font-size: .9rem;
+  }  
+  .top-story h3, p{
+    font-size: 1.2rem;
   }
   .top-story {
     grid-column: 1 / span 2;
   }
+
   .divider {
     grid-column: 1 / span 2;
   }
@@ -110,6 +118,9 @@ article iframe {
   .divider {
     grid-column: 1 / span 3;
   }
+    .story p, h3{
+    font-size: 1.1rem;
+  }  
 }
 
 .hero {
