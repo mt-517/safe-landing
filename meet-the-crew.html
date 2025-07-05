@@ -5,34 +5,36 @@
   <title>Meet the Crew | Safe Landing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="output.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
 </head>
 <body class="font-sans text-gray-900">
 <nav class="bg-white shadow-md fixed w-full z-10">
-  <div class="container mx-auto px-4 flex items-center justify-between h-16">
-    <a href="index.html" class="flex items-center space-x-2">
-      <img src="images/logo.png" alt="Safe Landing logo" class="h-8 w-auto">
-      <span class="font-bold text-lg">Safe Landing</span>
-    </a>
-    <div class="hidden md:flex space-x-6">
-      <a href="news.html" class="hover:text-blue-600">News</a>
-      <a href="media-and-press.html" class="hover:text-blue-600">Media & Press</a>
-      <a href="visioning-assembly.html" class="hover:text-blue-600">Visioning Assembly</a>
-      <a href="meet-the-crew.html" class="hover:text-blue-600">Meet the Crew</a>
-    </div>
-    <button id="nav-toggle" class="md:hidden focus:outline-none">
-      <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-              d="M4 6h16M4 12h16M4 18h16"/>
-      </svg>
-    </button>
-  </div>
-  <div id="nav-menu" class="md:hidden hidden bg-white border-t border-gray-200">
-    <a href="news.html" class="block px-4 py-2 hover:bg-gray-100">News</a>
-    <a href="media-and-press.html" class="block px-4 py-2 hover:bg-gray-100">Media & Press</a>
-    <a href="visioning-assembly.html" class="block px-4 py-2 hover:bg-gray-100">Visioning Assembly</a>
-    <a href="meet-the-crew.html" class="block px-4 py-2 hover:bg-gray-100">Meet the Crew</a>
-  </div>
-</nav>
+      <div class="container mx-auto px-4 flex items-center justify-between h-16">
+        <a href="index.html" class="flex items-center space-x-2">
+          <img src="images/logo.png" alt="Safe Landing logo" class="h-8 w-auto" />
+          <span class="font-bold text-lg">Safe Landing</span>
+        </a>
+        <div class="hidden md:flex space-x-6">
+          <a href="news.html" class="hover:text-blue-600">News</a>
+          <a href="media-and-press.html" class="hover:text-blue-600">Media &amp; Press</a>
+          <a href="visioning-assembly.html" class="hover:text-blue-600">Visioning Assembly</a>
+          <a href="meet-the-crew.html" class="hover:text-blue-600">Meet the Crew</a>
+          <a href="faqs.html" class="hover:text-blue-600">FAQs</a>
+        </div>
+        <button id="nav-toggle" class="md:hidden focus:outline-none">
+          <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+          </svg>
+        </button>
+      </div>
+      <div id="nav-menu" class="md:hidden hidden bg-white border-t border-gray-200">
+        <a href="news.html" class="block px-4 py-2 hover:bg-gray-100">News</a>
+        <a href="media-and-press.html" class="block px-4 py-2 hover:bg-gray-100">Media & Press</a>
+        <a href="visioning-assembly.html" class="block px-4 py-2 hover:bg-gray-100">Visioning Assembly</a>
+        <a href="meet-the-crew.html" class="block px-4 py-2 hover:bg-gray-100">Meet the Crew</a>
+        <a href="faqs.html" class="block px-4 py-2 hover:bg-gray-100">FAQs</a>
+      </div>
+    </nav>
 
 <main class="pt-20 container mx-auto px-4">
   <h1 class="text-4xl font-bold mb-10 text-center">Meet the Crew</h1>
@@ -52,7 +54,7 @@
     <!-- Example card -->
     <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Maxine-profile.webp" alt="Maxine de Vries" class="w-full h-48 object-cover" style="object-position: 14% 7%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Maxine de Vries</h3>
         <p class="text-gray-600 mb-4">E-Pilot | Safe Landing Netherlands</p>
         <p class="text-gray-400">Maxine is an aviation engineer and passionate electric pilot (E-pilot) dedicated to flying sustainably as soon as possible.</p>
@@ -60,7 +62,7 @@
     </div>    
     <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/tom-and-milo.jpg.jpeg" alt="Tom Reynolds" class="w-full h-48 object-cover" style="object-position: 54% 3%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Tom Reynolds</h3>
         <p class="text-gray-600 mb-4">Pilot | Movement Builder</p>
         <p class="text-gray-400">Tom is a current UK airline pilot with ten years in the industry. Before commercial aviation he began his flying career as a trainee pilot in the RAF. </p>
@@ -68,7 +70,7 @@
     </div>
     <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Finlay.jpg" alt="Finlay Asher" class="w-full h-48 object-cover" style="object-position: 50% 21%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Finlay Asher</h3>
         <p class="text-gray-600 mb-4">Aerospace Engineer | Safe Landing Co-Founder</p>
         <p class="text-gray-400">Finlay is a Scottish Mechanical Engineer with extensive aerospace experience: designing future engine concepts at Rolls-Royce for various Airbus and Boeing aircraft. </p>
@@ -76,7 +78,7 @@
     </div>    
     <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Crew-3-George.jpg.jpeg" alt="George Hibberd" class="w-full h-48 object-cover" style="object-position: 50% 31%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">George Hibberd</h3>
         <p class="text-gray-600 mb-4">Workers' Assemblies and Trade Union outreach</p>
         <p class="text-gray-400">George used to work as a 320 pilot for Easyjet. Now he works full time at Safe Landing as a movement builder, encouraging more workers from within the industry to do what they can.</p>
@@ -84,7 +86,7 @@
     </div>    
     <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Crew-1-Todd-Smith.jpg.jpeg" alt="Todd Smith" class="w-full h-48 object-cover" style="object-position: 50% 48%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Tom Smith</h3>
         <p class="text-gray-600 mb-4">Pilot | Safe Landing Co-Founder</p>
         <p class="text-gray-400">As a former Senior First Officer for Thomas Cook, Todd was inspired to learn to fly by his father, a builder, who told him to “always do a job he’d enjoy”, he set his goal on becoming a pilot at the tender age of five.</p>
@@ -98,7 +100,7 @@
   <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
    <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Crew-6-Sian-Andrews.jpg.jpeg" alt="Siân Andrews" class="w-full h-48 object-cover" style="object-position: 50% 50%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Siân Andrews</h3>
         <p class="text-gray-600 mb-4">ATC &amp; Safe Landing Ambassador</p>
         <p class="text-gray-400">Siân originally trained as an En-route Air Traffic Controller, then spent a few years working in Flight Data Monitoring, before going back to Air Traffic Management to work on a large European ATM Research project, where she has over 10 years of experience.</p>
@@ -106,7 +108,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Keiran.jpg" alt="Keiran Tate" class="w-full h-48 object-cover" style="object-position: 50% 69%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Keiran Tate</h3>
         <p class="text-gray-600 mb-4">Aerospace Engineer &amp; Academic</p>
         <p class="text-gray-400">Kieran is a lifelong environmental activist and PhD researcher in aerospace engineering and atmospheric chemistry, researching the climate impact of aviation and potential short-term mitigation options.</p>
@@ -114,7 +116,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Katie.jpg" alt="Katie Thompson" class="w-full h-48 object-cover" style="object-position: 50% 55%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Katie Thompson</h3>
         <p class="text-gray-600 mb-4"></p>
         <p class="text-gray-400">After a long flying career as a flight instructor, an Airbus A340 pilot, and then a NetJets Management Pilot, I started looking into the impact that aviation was having on the planet. It was not something that was being discussed around me in any depth. The ultimate result was that I quit my job, stopped working as a pilot and went back to college, among other climate credentials, I now hold a Masters in Sustainable Aviation.</p>
@@ -122,7 +124,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Michael.jpg" alt="Michael Wanjuzi Makongo" class="w-full h-48 object-cover" style="object-position: 50% 55%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Michael Wanjuzi Makongo</h3>
         <p class="text-gray-600 mb-4">Administration at Uganda Civil Aviation Authority</p>
         <p class="text-gray-400">Michael works with the Uganda Civil Aviation Authority at the Entebbe International Airport as an administrative office assistant and is also a Laudato Si Animator in Uganda.</p>
@@ -130,7 +132,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Andy.jpg" alt="Andy" class="w-full h-48 object-cover" style="object-position: 50% 50%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Andy</h3>
         <p class="text-gray-600 mb-4">Pilot</p>
         <p class="text-gray-400">As an airline pilot working for a large UK carrier it’s hard to find opportunities to talk about the climate and ecological impact of our industry. Safe Landing offers me a space to be truthful about my own conflicted and compromised feelings. The deep knowledge and understanding of the members has greatly enhanced my own understanding of both the technical and political challenges. Being part of this inspiring group gives me the hope and motivation to keep working towards mitigating the climate impacts of aviation.</p>
@@ -138,7 +140,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Charlotte.jpg" alt="Charlotte Storey" class="w-full h-48 object-cover" style="object-position: 50% 35%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Charlotte Storey</h3>
         <p class="text-gray-600 mb-4">Volunteer &amp; Safe Landing Ambassador</p>
         <p class="text-gray-400">Charlotte is one of only a few pilots in the world to fly without the use of one arm. Her talks illuminate the unique problem-solving skills inherent in disabled individuals. Motivated by design, Charlotte is keen to be at the forefront of conversations around accessible cockpit design and future technologies.</p>
@@ -146,7 +148,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Matthew.jpg" alt="Matthew" class="w-full h-48 object-cover" style="object-position: 50% 53%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Matthew</h3>
         <p class="text-gray-600 mb-4">Future engine designer</p>
         <p class="text-gray-400">Future engine designer at Rolls-Royce actively encouraging colleagues of all levels of seniority to be vocal and challenge bad decisions and the environmentally flawed logic used to justify them. He’s the current head of the Employee Sustainability Group, first founded by Finlay Asher.</p>
@@ -154,7 +156,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Njigina.jpg" alt="Njigina (Gina)" class="w-full h-48 object-cover" style="object-position: 50% 21%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Njigina (Gina)</h3>
         <p class="text-gray-600 mb-4">Cabin Crew</p>
         <p class="text-gray-400">Njigina is a former flight attendant with over 10 years working for airlines both in the UAE and the UK. She is from Kenya and enjoyed the ability to not only travel the world but also visit her family in Kenya as often as she could as a result of her career in the airline industry. </p>
@@ -162,7 +164,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/andy-rolfe.jpg.jpeg" alt="Andy Rolfe" class="w-full h-48 object-cover" style="object-position: 50% 67%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Andy Rolfe</h3>
         <p class="text-gray-600 mb-4">Safety Manager for NATS</p>
         <p class="text-gray-400">Andy worked as an Engineer and Safety Manager for NATS in the UK for over 20 years. Retiring in 2023, he maintains a keen interest in how he can be "part of the solution" for a sustainable aviation industry.</p>
@@ -170,7 +172,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Dan.jpg" alt="Dan Tipney" class="w-full h-48 object-cover" style="object-position: 2% 66%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Dan Tipney</h3>
         <p class="text-gray-600 mb-4">Pilot &amp; Campaigner</p>
         <p class="text-gray-400">Dan is a former airline pilot and in 2020 chose to stop flying altogether due to his concern for the position of the sector with regards to the climate emergency.</p>
@@ -178,7 +180,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Jeff.jpg" alt="Jeff Joslin" class="w-full h-48 object-cover" style="object-position: 25% 52%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Jeff Joslin</h3>
         <p class="text-gray-600 mb-4">Pilot Ret'd</p>
         <p class="text-gray-400">Jeff Joslin recently retired from a major US Airline.  Jeff was a Captain who flew internationally for most of his 34 years in the cockpit. He also served in positions specializing in communications, teamwork and conflict resolution for both his company and the Airline Pilots Association. </p>
@@ -186,7 +188,7 @@
     </div>
 <div class="border rounded-lg overflow-hidden shadow-sm">
       <img src="/images/Alan.jpg" alt="Alan" class="w-full h-48 object-cover" style="object-position: 50% 50%">
-      <div class="p-4">
+      <div class="p-4 crew-card">
         <h3 class="font-semibold text-xl">Alan</h3>
         <p class="text-gray-600 mb-4">Pilot, Hong Kong</p>
         <p class="text-gray-400">As someone who cares deeply about the health of our planet but who is also passionate about aviation, it’s difficult not to feel like a hypocrite. Safe Landing has allowed me to connect with other aviation workers who feel the same and who want to drive real change within the industry to lead it towards a sustainable path.</p>
